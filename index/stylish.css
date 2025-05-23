@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/split-fiction-key-art-no-logo-01-desktop-06dec24?$native$);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 550px;
+    background-color: rgb(0, 0, 0, 35%);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.background h2 {
+    font-size: 43px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Latest{padding: 0px 0px 0px 30px;
+background-color: black;
+color: aqua;}
+
+.postcontainer {padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.posts {
+    width: 200px;
+    border: 1px solid black;
+    background-color: wheat;
+    border-radius: 25px;
+    padding: 25px;
+    color: black;
+
+}
+
+.posts button {
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+.main {
+    height: 60vh;
+}
