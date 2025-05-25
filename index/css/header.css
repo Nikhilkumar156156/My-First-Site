@@ -9,7 +9,7 @@ nav {
 }
 
 h1>a {
-    color: yellow;
+    color:red;
     text-decoration: none;
 }
 
@@ -55,6 +55,6 @@ nav a {
 }
 
 .search button {
-    background-color: yellow;
+    background-color: white;
     border-radius: 10px;
 }
